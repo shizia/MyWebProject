@@ -1,0 +1,12 @@
+.main1{
+	border: 1px blue solid;
+	width: 300px;
+	height: 100%;
+	float:left;
+	margin-left: 50px;
+}
+.content{
+	border: 1px blue solid;
+	width: 300px;
+	height: 100%;
+}

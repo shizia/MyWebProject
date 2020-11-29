@@ -1,0 +1,45 @@
+.head{
+	
+	height: 140px;
+	width: 100%;
+}
+.menu{	
+	background-color:#F4F4F4;
+	height: 40px;
+	width: 100%;
+}
+.head2{
+	height: 100px;
+	width: 100%;
+}
+/* ul li以横排显示 */
+
+/* 所有class为menu的div中的ul样式 */
+.menu ul {
+	list-style: none; /* 去掉ul前面的符号 */
+	margin-left: 80px;
+}
+/* 所有class为menu的div中的ul中的li样式 */
+.menu ul li {
+	float: left; /* 向左漂移，将竖排变为横排 */
+	margin-left: 30px;
+}
+/* 所有class为menu的div中的ul中的a样式(包括尚未点击的和点击过的样式) */
+.menu ul li a{	
+	color: gray; /* 文字颜色 */
+	font-size:small;	
+	text-decoration: none; /* 不显示超链接下划线 */
+}
+.div2{
+	margin-top:5px;
+	float:left;
+}
+.div3{
+	margin-top:3px;
+	width: 25px; 
+	float:left;
+}
+.div4 img{
+	margin-left:100px;
+	
+}
